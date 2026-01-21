@@ -3,7 +3,7 @@
 `offline.py` depends on the following Python modules and packages inside this repository
 
 Main script for offline EIT reconstruction. It imports:
-
+-`from __future__ import division, absolute_import, print_function`
 - `numpy` as `np`  
 - `matplotlib.pyplot` as `plt`  
 - `OpenEIT.dashboard`  
