@@ -1,21 +1,21 @@
 ## Dependencies for offline.py
 
-`offline.py` depends on the following Python modules and packages inside this repository
+offline.py depends on the following Python modules and packages inside this repository
 
 Main script for offline EIT reconstruction. It imports:
-- `from __future__ import division, absolute_import, print_function`
-- `numpy` as `np`  
-- `matplotlib.pyplot` as `plt`  
-- `OpenEIT.dashboard`  
-- `OpenEIT.reconstruction`
+- from __future__ import division, absolute_import, print_function
+- numpy as np  
+- matplotlib.pyplot as plt  
+- OpenEIT.dashboard  
+- OpenEIT.reconstruction
 
-### `OpenEIT/dashboard/`
+### OpenEIT/dashboard/
 
-- Python package that provides dashboard-related helpers and configuration used by `offline.py` for plotting and data handling.  
+- Python package that provides dashboard-related helpers and configuration used by offline.py for plotting and data handling.  
 
-### `OpenEIT/reconstruction/` (including `pyeit`)
+### OpenEIT/reconstruction/
 
- EIT reconstruction code used by `offline.py`
+ EIT reconstruction code used by offline.py
 
 - Mesh generation  
 - Forward model and Jacobian computation  
