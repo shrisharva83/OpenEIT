@@ -20,3 +20,11 @@ Main script for offline EIT reconstruction. It imports:
 - Mesh generation  
 - Forward model and Jacobian computation  
 - Reconstruction algorithms (GREIT, Gauss–Newton, back-projection)  
+
+# step 1 creating a virtual environment and activating it in the exact folder where offline.py is present
+python -m venv envtest
+.\envtest\Scripts\Activate.ps1
+# step 2 installing all necessary libraries
+pip install numpy matplotlib dash dash-html-components dash-core-components dash-table
+#step 3 run the offline.py file
+python offline.py
